@@ -3,6 +3,7 @@ package model.entities;
 public class Curso {
     private String titulo;
     private String descricao;
+    private Integer cargahoraria;
     public String getTitulo() {
         return titulo;
     }
@@ -21,6 +22,11 @@ public class Curso {
     public void setCargahoraria(Integer cargahoraria) {
         this.cargahoraria = cargahoraria;
     }
-    private Integer cargahoraria;
+    @Override
+    public String toString() {
+        return "Curso [cargahoraria=" + cargahoraria + ", descricao=" + descricao + ", titulo=" + titulo + "]";
+    }
+
+    
 
 }
