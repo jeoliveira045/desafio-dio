@@ -1,6 +1,9 @@
 
 import java.time.LocalDate;
 
+import javax.swing.text.AbstractDocument.Content;
+
+import model.entities.Conteudo;
 import model.entities.Curso;
 import model.entities.Mentoria;
 

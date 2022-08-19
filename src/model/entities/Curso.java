@@ -1,21 +1,8 @@
 package model.entities;
 
-public class Curso {
-    private String titulo;
-    private String descricao;
+public class Curso extends Conteudo{
+
     private Integer cargahoraria;
-    public String getTitulo() {
-        return titulo;
-    }
-    public void setTitulo(String titulo) {
-        this.titulo = titulo;
-    }
-    public String getDescricao() {
-        return descricao;
-    }
-    public void setDescricao(String descricao) {
-        this.descricao = descricao;
-    }
     public Integer getCargahoraria() {
         return cargahoraria;
     }
@@ -24,7 +11,12 @@ public class Curso {
     }
     @Override
     public String toString() {
-        return "Curso [cargahoraria=" + cargahoraria + ", descricao=" + descricao + ", titulo=" + titulo + "]";
+        return "Curso [cargahoraria=" + cargahoraria + ", descricao=" + getDescricao() + ", titulo=" + getTitulo() + "]";
+    }
+    @Override
+    public double calcularXp() {
+
+        return 0;
     }
 
     
