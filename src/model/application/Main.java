@@ -50,10 +50,10 @@ public class Main {
         System.out.println("Conteúdos Inscritos Joao: " + devJoao.getConteudosInscritos());
         devJoao.progredir();
         devJoao.progredir();
-        devJoao.progredir();
         System.out.println("Conteúdos Inscritos Joao: " + devJoao.getConteudosInscritos());
         System.out.println("Conteudos Concluídos Joao: " + devJoao.getConteudosConcluidos());
         System.out.println("XP :" + devJoao.calcularTotalXp());
+        System.out.println("Lista de Devs Inscritos: " + bootcamp.getDevsInscritos());
     }
     
 }
